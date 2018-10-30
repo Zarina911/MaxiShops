@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MaxShop</title>
+    <script src="js/jquery-2.2.1.min.js"></script>
+    <script src="js/jquery.mosaicflow.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="js/bootstrap.min.css">
+    <link rel="stylesheet" href="js/jquery.fancybox.min.css">
+    <link type="text/css" media="screen"/>
+    <link rel="stylesheet" href="fonts/OpenSansRegular.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style_2.css">
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+<div>
+    <div class="container logo">
+        <div class="row">
+            <a href="#"><i class="fa fa-long-arrow-left" aria-hidden="true"
+                           style="padding-right: 9px; color: white"></i>
+                Cделай свой выбор </a>
+            <div class="line"></div>
+            <div><img style="margin-top: 82px" src="image/logo.png" height="84" width="173"/></div>
+        </div>
+    </div>
+</div>
+<header>
+    <div class="container max_shop">
+        <div class="row ">
+            <div class="shop">
+                <h1>Интернет магазин</h1>
+                <p> одежды, обуви,аксессуаров и т.д. </p>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Размеры</a></li>
+                </ul>
+            </div>
+            <div class="cart">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="list-group">
+                <ul>
+                    <li class="dropdawn">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Костюмы</a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Костюмы1</a></li>
+                            <li><a href="#">Костюмы2 </a></li>
+                            <li><a href="#">Костюмы3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdawn">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Куртки</a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Куртки1</a></li>
+                            <li><a href="#">Куртки2 </a></li>
+                            <li><a href="#">Куртки3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdawn">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Рубашки</a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Рубашки1</a></li>
+                            <li><a href="#">Рубашки2 </a></li>
+                            <li><a href="#">Рубашки3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdawn">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Кофты</a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Кофты1</a></li>
+                            <li><a href="#">Кофты2</a></li>
+                            <li><a href="#">Кофты3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdawn">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Штаны</a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Штаны1</a></li>
+                            <li><a href="#">Штаны2 </a></li>
+                            <li><a href="#">Штаны3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdawn">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Кроссовки</a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Кроссовки1</a></li>
+                            <li><a href="#">Кроссовки2 </a></li>
+                            <li><a href="#">Кроссовки3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdawn">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Аксессуары</a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Аксессуары1</a></li>
+                            <li><a href="#">Аксессуары2 </a></li>
+                            <li><a href="#">Аксессуары3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        //        $('.dropdown-toggle').dropdown()
+    </script>
+</section>
+<section>
+    <div class="container item">
+        <div class="row">
+            <div id="carousel" class="carousel slide">
+                <ol class="carousel-indicators">
+                    <li class="active" data-target="#carousel" data-slide-to="0"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                    <li data-target="#carousel" data-slide-to="3"></li>
+                    <li data-target="#carousel" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="text">
+                            <h2>Новая борода в<br> ассортименте</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod tempor
+                                incididunt<br> ut labore et</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="text">
+                            <h2>Новая борода в<br> ассортименте</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod tempor
+                                incididunt<br> ut labore et</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="text">
+                            <h2>Новая борода в<br> ассортименте</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod tempor
+                                incididunt<br> ut labore et</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="text">
+                            <h2>Новая борода в<br> ассортименте</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod tempor
+                                incididunt<br> ut labore et</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="text">
+                            <h2>Новая борода в<br> ассортименте</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod tempor
+                                incididunt<br> ut labore et</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container gallery">
+        <div class="row">
+            <h2 class="popular">Популярные товары</h2>
+            <div class="group">
+                <ul class="shop-gallery">
+
+                    <li>
+                        <img src="image/pants.png" height="190" width="118"/>
+                        <h4>Толстовка Weit - 3</h4>
+                        <p>325 грн./шт.</p>
+                    </li>
+
+                    <li>
+                        <img src="image/black_hoody.png" height="238" width="186"/>
+                        <h4>Толстовка Weit - 3</h4>
+                        <p>325 грн./шт.</p>
+                    </li>
+
+                    <li>
+                        <img src="image/blue_hoody.png" height="180" width="154"/>
+                        <h4>Толстовка Weit - 3</h4>
+                        <p>325 грн./шт.</p>
+                    </li>
+
+                    <li>
+                        <img src="image/hoody.png" height="192" width="157"/>
+                        <h4>Толстовка Weit - 3</h4>
+                        <p>325 грн./шт.</p>
+                    </li>
+
+                    <li>
+                        <img src="image/pants.png" height="190" width="118"/>
+                        <h4>Толстовка Weit - 3</h4>
+                        <p>325 грн./шт.</p>
+                    </li>
+
+                    <li>
+                        <img src="image/black_hoody.png" height="238" width="186"/>
+                        <h4>Толстовка Weit - 3</h4>
+                        <p>325 грн./шт.</p>
+                    </li>
+
+                    <li>
+                        <img src="image/blue_hoody.png" height="180" width="154"/>
+                        <h4>Толстовка Weit - 3</h4>
+                        <p>325 грн./шт.</p>
+                    </li>
+
+                    <li class="any_text" style="text-align: center">
+                        <p class="lorem">Lorem ipsum dolor sit amet,<br>
+                            consectetur adipiscing elit,<br>
+                            sed do eiusmod tempor<br>
+                            incididunt ut labore et dolore<br>
+                            mag</p>
+                        <button class="more">Ещё</button>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="unit_info">
+                <div class="block_1">
+                    <p>реклама</p>
+                </div>
+                <div class="block_2">
+                    <p>реклама</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container about">
+        <div class="row">
+
+            <div class="info">
+                <div class="news">
+                    <form role="form">
+                        <div class="form-group has-feedback">
+                            <label class="control-label">Подпишись на новости:</label>
+                            <input type="text" class="form-control" placeholder="Введи e-mail"/>
+                            <i class="form-control-feedback fa fa-chevron-right"></i>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="social">
+                    <p>Ищи нас в соц.сетях:</p>
+                    <div><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+                    <div><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+                    <div><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></div>
+                    <div><a href="#"><i class="fa  fa-instagram" aria-hidden="true"></i></a></div>
+                </div>
+
+                <div class="call">
+                    <p>(097) - 937 - 99 - 92</p>
+                    <p>info@max-shop.com.ua</p>
+                </div>
+            </div>
+
+            <div class="info_2">
+                <ul>
+                    <li>Категории</li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+                <ul>
+                    <li>Оплата</li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+
+                </ul>
+                <ul>
+                    <li>Поставщикам</li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+                <ul>
+                    <li>Сотрудничество</li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
