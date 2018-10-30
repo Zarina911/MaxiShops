@@ -422,3 +422,24 @@ header {
     }
   }
 }
+.info_2{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 45px ;
+  padding-bottom: 45px;
+  font-size: 12px;
+  font-family: $Arial;
+
+  line-height: 1.583;
+  ul{
+    list-style: none;
+    padding-bottom: 10px;
+    li{
+
+    }
+    a{
+      color: #6d6d6d;
+      text-decoration: none;
+    }
+  }
+}
