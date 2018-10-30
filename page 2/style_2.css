@@ -320,4 +320,19 @@ header {
       padding-left: 25%;
       padding-top: 15%; }
 
+.info_2 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  font-size: 12px;
+  font-family: "AlteHaasGroteskRegular", sans-serif;
+  line-height: 1.583; }
+  .info_2 ul {
+    list-style: none;
+    padding-bottom: 10px; }
+    .info_2 ul a {
+      color: #6d6d6d;
+      text-decoration: none; }
+
 /*# sourceMappingURL=style_2.css.map */
