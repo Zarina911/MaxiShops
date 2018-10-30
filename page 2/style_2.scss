@@ -154,3 +154,129 @@ header {
   }
 }
 
+.dropdawn {
+  position: relative;
+  text-align: center;
+  ul {
+    //opacity: 0;
+  }
+  .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #1e3e54;
+    text-decoration: none;
+    z-index: 2;
+    //????????display
+    ul {
+      border: none;;
+    }
+    li {
+      padding-top: 10px;
+    }
+    a {
+      color: #ffffff;
+      padding-left: 0;
+    }
+  }
+}
+
+.dropdown-menu:hover:active {
+  display: block;
+}
+
+.dropdawn:hover {
+  background-color: #1e3e54;
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+
+.dropdawn:active {
+  background-color: #1e3e54;
+  display: block;
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+
+.dropdawn:focus {
+  background-color: #1e3e54;
+  display: block;
+  z-index: 3;
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+
+.dropdown-menu {
+  margin: 0;
+  border: 0;
+
+}
+
+.open > .dropdown-menu {
+  display: none;
+}
+
+//carousel
+.carousel {
+  top: -15px;
+}
+
+.item {
+  background: url(image/man_beard.png) center no-repeat;
+  background-attachment: inherit;
+  //background-position: top;
+  color: #ffffff;
+  min-height: 365px;
+  margin-top: 0;
+  position: relative;
+}
+
+.carousel-indicators li {
+  width: 5px;
+  height: 5px;
+  cursor: pointer;
+  background-color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #d9dae1;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  width: 8px;
+  height: 8px;
+  margin: 0;
+  background-color: transparent;
+  border: 2px solid #d9dae1;
+}
+
+.carousel-indicators {
+  text-align: right;
+  width: 100%;
+  padding-right: 200px;
+  padding-bottom: 32px;
+}
+
+.carousel-inner {
+  .text {
+    display: flex;
+    flex-direction: column;
+    padding-right: 135px;
+    padding-top: 93px;
+    height: auto;
+    text-align: right;
+
+    h2 {
+      text-transform: uppercase;
+      min-width: 285px;
+    }
+  }
+}
+
+//GALLERY
+
